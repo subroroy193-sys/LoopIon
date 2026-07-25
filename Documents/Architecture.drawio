@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" pages="2">
   <diagram name="Architecture" id="H7lEWqInraoZjv4zpcze">
-    <mxGraphModel dx="1585" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1717" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ACtlMx1G0tejAemdSXrJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;LoopLon Architecture&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="1020" x="10" y="10" as="geometry" />
+          <mxGeometry height="60" width="1350" x="10" y="10" as="geometry" />
         </mxCell>
         <mxCell id="ACtlMx1G0tejAemdSXrJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
           <mxGeometry height="830" width="1350" x="10" y="80" as="geometry" />
@@ -58,13 +58,13 @@
         <mxCell id="ACtlMx1G0tejAemdSXrJ-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;LoopLon API&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="450" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="ACtlMx1G0tejAemdSXrJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Battery Passport&lt;/b&gt;" vertex="1">
+        <mxCell id="ACtlMx1G0tejAemdSXrJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;ERP Data&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="254" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="ACtlMx1G0tejAemdSXrJ-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Manufacturing&lt;/b&gt;" vertex="1">
+        <mxCell id="ACtlMx1G0tejAemdSXrJ-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;MES Data&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="450" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="ACtlMx1G0tejAemdSXrJ-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Telemetry&lt;/b&gt;" vertex="1">
+        <mxCell id="ACtlMx1G0tejAemdSXrJ-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Telemetry Data to be stored in TimeScaleDB&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="650" y="440" as="geometry" />
         </mxCell>
         <mxCell id="ACtlMx1G0tejAemdSXrJ-24" edge="1" parent="1" source="ACtlMx1G0tejAemdSXrJ-20" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ACtlMx1G0tejAemdSXrJ-21" value="">
