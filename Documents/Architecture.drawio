@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ACtlMx1G0tejAemdSXrJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;LoopLon Architecture&lt;/font&gt;&lt;/b&gt;" vertex="1">
+        <mxCell id="ACtlMx1G0tejAemdSXrJ-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;LoopIon Architecture&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="1350" x="10" y="10" as="geometry" />
         </mxCell>
         <mxCell id="ACtlMx1G0tejAemdSXrJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
@@ -55,7 +55,7 @@
             <mxPoint x="360" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ACtlMx1G0tejAemdSXrJ-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;LoopLon API&lt;/b&gt;" vertex="1">
+        <mxCell id="ACtlMx1G0tejAemdSXrJ-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;LoopIon API&lt;/b&gt;" vertex="1">
           <mxGeometry height="60" width="160" x="450" y="320" as="geometry" />
         </mxCell>
         <mxCell id="ACtlMx1G0tejAemdSXrJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;ERP Data&lt;/b&gt;" vertex="1">
