@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="Ztdy73D_qMY6MjwH3-5U">
+    <mxGraphModel dx="1373" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;ERP System&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(ex: SAP)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Battery Serial Number&lt;/div&gt;&lt;div&gt;Invoice&lt;/div&gt;&lt;div&gt;Dealer&lt;/div&gt;&lt;div&gt;Customer&lt;/div&gt;&lt;div&gt;Cost&lt;br&gt;Warranty&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;LoopIon High Level Data Flow Diagram&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="1020" x="30" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;MES System&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;(ex:&amp;nbsp;Siemens Opcenter)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Cell Batch&lt;/div&gt;&lt;div&gt;Machine Number&lt;/div&gt;&lt;div&gt;Operator&lt;/div&gt;&lt;div&gt;Capacity Test&lt;/div&gt;&lt;div&gt;Internal Resistance&lt;br&gt;Chemistry&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-4" edge="1" parent="1" source="-RvI_W_iwE-MVQvuYsEi-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-RvI_W_iwE-MVQvuYsEi-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="370" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;b&gt;ERP/MES Bridge&lt;/b&gt;&lt;/div&gt;&lt;div&gt;It converts all data into a common format&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="150" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-6" edge="1" parent="1" source="-RvI_W_iwE-MVQvuYsEi-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-RvI_W_iwE-MVQvuYsEi-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="370" as="sourcePoint" />
+            <mxPoint x="560" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-9" edge="1" parent="1" source="-RvI_W_iwE-MVQvuYsEi-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Identity Service&lt;/b&gt;&lt;div&gt;It creates a QR code which will have an URL to the battery information.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="480" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="680" y="319.41" as="sourcePoint" />
+            <mxPoint x="810" y="319.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Battery Database&amp;nbsp;&lt;/b&gt;&lt;div&gt;It will store all data such as Warranty, compliance and service details.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="810" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="310" width="1040" x="20" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-14" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="&lt;b&gt;This is all pre-sales&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="920" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910.0045454545455" y="360" as="sourcePoint" />
+            <mxPoint x="910" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Telemetry service&lt;/b&gt;&lt;div&gt;BMS starts generating per second data which is stored in TimeScaleDB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="810" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-19" edge="1" parent="1" source="-RvI_W_iwE-MVQvuYsEi-18" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="910.0045454545455" y="440" as="sourcePoint" />
+            <mxPoint x="700" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Warranty Intelligence Engine&lt;/b&gt;&lt;div&gt;It goes through the timescaledb and generates data which tells the data is breached or not&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="500" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="500" y="530" as="sourcePoint" />
+            <mxPoint x="390" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;AI Engine&lt;/b&gt;&lt;div&gt;It looks at months of battery history&lt;/div&gt;&lt;div&gt;and generates whether battery is good to reuse or should be recycled&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="70" y="530" />
+              <mxPoint x="70" y="670" />
+            </Array>
+            <mxPoint x="189" y="530" as="sourcePoint" />
+            <mxPoint x="180" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;B2B Marketplace&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="180" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-25" edge="1" parent="1" source="-RvI_W_iwE-MVQvuYsEi-24" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="470" as="sourcePoint" />
+            <mxPoint x="500" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;Compliance Engine&lt;/b&gt;&lt;div&gt;Everything happened with the battery is stored, so&amp;nbsp;compliance reports becomes straightforward.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="200" x="500" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="310" width="1040" x="20" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="-RvI_W_iwE-MVQvuYsEi-29" parent="1" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" value="&lt;b&gt;This is post-sales&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="930" y="660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
