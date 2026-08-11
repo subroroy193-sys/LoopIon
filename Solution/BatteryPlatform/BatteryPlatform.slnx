@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BatteryPlatform.Api/BatteryPlatform.Api.csproj" />
+  <Project Path="BatteryPlatform.Application/BatteryPlatform.Application.csproj" />
+  <Project Path="BatteryPlatform.Domain/BatteryPlatform.Domain.csproj" />
+  <Project Path="BatteryPlatform.Infrastructure/BatteryPlatform.Infrastructure.csproj" />
+</Solution>
