@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="BatteryPlatform.Api/BatteryPlatform.Api.csproj" />
   <Project Path="BatteryPlatform.Application/BatteryPlatform.Application.csproj" />
   <Project Path="BatteryPlatform.Domain/BatteryPlatform.Domain.csproj" />
